@@ -1,7 +1,13 @@
 .hero{
     margin-top:70px; 
-    margin-bottom: 0; 
+   
 }
 .hero img{
     width: 100%;
+}
+
+@media(max-width: 768px){
+    .hero{
+        margin-top: 35px;
+    }
 }

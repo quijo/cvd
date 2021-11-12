@@ -1,0 +1,10 @@
+.footer-container{
+    display: flex;
+    height: 70px;
+    background-color: grey;
+    font-family:'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}

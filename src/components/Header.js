@@ -13,7 +13,7 @@ function Header() {
             <div className="header" >
               <div className="headerContainer" id="headerCont">
                   <div className="headerContact">
-                    <a href="home"><span><i className="fas fa-phone-volume"></i></span> 09277490877</a>
+                    <a href="home"><span><i className="fas fa-phone-volume"></i></span>(032) 420 7416</a>
                     <a href="mailto:rjohnquia@gmail.com"><span><i className="fas fa-envelope"></i></span> info@cvdnaz.org</a>
                   </div>
                   <div className="headerSocialMedia">
@@ -21,7 +21,7 @@ function Header() {
                   </div>
               </div>
               <div className="navbar">
-                <img className="logo" src={logo} alt="nazarenelogo" />
+                <div className="logo-container"><img className="logo" src={logo} alt="nazarenelogo" /></div>
                 <div className="rightBtn">
                   <button className="findBtn">FIND A CHURCH </button>
                   <button className="giveBtn">GIVE NOW</button>
