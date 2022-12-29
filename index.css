@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.hero{
+    width: 100%;
+   
+}
+.hero-img{
+    width: 100%;
+}
+.program{
+   
+    height: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 0;
+   
+   
+}
+ h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+ul{
+    font-size: 20px;
+    margin-top: 16px;
+    }
+.program ul li{
+    list-style: none;
+}
+.order-of-the-day{
+    padding-left:5%;
+}
+
+.order-of-the-day ul li{
+    list-style: none;
+}
+
+h2{
+    margin-top: 16px;
+  
+}
+
+.order-of-the-day ul li ul{
+   margin-top:8px;
+   margin-bottom: 8px;
+   margin-left: 20px;
+  
+}
+.order-of-the-day ul li ul li{
+   list-style: circle;
+   
+ }
+ footer{
+    background-color: darkorange;
+    text-align: center;
+    padding:20px;
+    margin-top: 16px;
+    
+ }
+
+ div{
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+ .mcb{
+    background-color: lightblue;
+    padding-top:8px;
+    padding-bottom: 8px;
+ }
+
+ .msb{
+background-color: rgb(117, 208, 211);
+padding-top:8px;
+padding-bottom: 32px;
+
+ }
+ .msb ul li{
+    list-style: none;
+    list-style-type: decimal;
+ }
+ .msb ul li ul li{
+    list-style-type: circle;
+    margin-left: 16px;
+    margin-bottom: 4px;
+ }
+.deb{
+    background-color: lightblue;
+    margin-top:-16px;
+    padding-top:8px;
+    padding-bottom: 8px;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .program{
+        width: 100%;
+        height: auto;
+        padding-left:5%;
+        padding-right:5%
+    
+    }
+    .program h3{
+        font-size: 2.5vh;
+    }
+    ul{
+        margin-top: 18px;
+        font-size: 2vh;
+    }
+   
+    .order-of-the-day{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        background-color: darkorange;
+        text-align: center;
+        padding:20px;
+        font-size: 2vh;
+        margin-top: 0;
+        
+     }
+     h1{
+        font-size: 2.7vh;
+     }
+     h2{
+        font-size: 2vh;
+     }
+     p{
+        font-size: 1.8vh;
+     }
+     .msb ul li{
+        margin-bottom: 8px;
+        list-style-type: decimal;
+        
+     }
+    
+    
+    
+     
+
+ 
+ 
+}
+
+
