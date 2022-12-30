@@ -89,6 +89,18 @@ padding-bottom: 32px;
     padding-bottom: 8px;
 
 }
+.cr{
+    padding-top:8px;
+    padding-bottom:16px;
+    background-color: rgb(117, 208, 211);
+}
+.cr p{
+    font-size:3.2vh;
+ }
+ .cr ul li{
+    margin-bottom: 8px;
+    list-style-type: decimal;
+ }
 
 
 
@@ -129,15 +141,26 @@ padding-bottom: 32px;
      }
      h2{
         font-size: 2vh;
+        color:darkred;
      }
-     p{
-        font-size: 1.8vh;
-     }
+    .msb ul{
+        padding-left:8px
+    }
      .msb ul li{
         margin-bottom: 8px;
         list-style-type: decimal;
         
      }
+     p{
+        font-size: 2vh;
+     }
+     .cr p{
+        font-size:2.1vh;
+
+     }
+     .cr ul{
+        padding-left:8px;
+     }   
     
     
     
