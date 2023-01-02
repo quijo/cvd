@@ -1,13 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: white;
+
 }
 .hero{
     width: 100%;
+    margin-top: 18px;
+
    
 }
 .hero-img{
@@ -17,7 +27,7 @@ body{
  h1 {
     text-align: center;
     margin-bottom: 16px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
 ul{
     font-size: 20px;
@@ -55,24 +65,21 @@ h2{
     background-color: darkorange;
     text-align: center;
     padding:20px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
     
  }
 
  div{
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 16px;
+    padding-top: 32px; 
     padding-bottom:16px;
  }
- .dab{
-    background-color: rgb(117, 208, 211);
 
- }
  .mcb{
     background-color: lightblue;
     padding-top:8px;
-    padding-bottom: 8px;
+    padding-bottom: 32px;
  }
 
  .msb{
@@ -90,15 +97,15 @@ padding-bottom: 32px;
     margin-left: 16px;
     margin-bottom: 4px;
  }
-.deb{
-    background-color: lightblue;
+.dab{
+    background-color: rgb(117, 208, 211);
     margin-top:-16px;
-    padding-top:8px;
-    padding-bottom: 8px;
+    padding-top:32px;
+    padding-bottom: 32px;
 
 }
 .cr{
-    padding-top:8px;
+    padding-top:32px;
     padding-bottom:16px;
     background-color: rgb(117, 208, 211);
 }
@@ -111,6 +118,8 @@ padding-bottom: 32px;
  }
  .nom{
     background-color: lightblue;
+    padding-top:32px;
+    padding-bottom:32px;
  }
 
  li{
@@ -122,14 +131,104 @@ padding-bottom: 32px;
  li ul {
     padding-left: 16px;
  }
+ nav{
 
+    top:0;
+    padding-left: 16px;
+    padding-right:64px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* height: auto; */
+    height: 65px;
+    background-color: darkseagreen;
+    
+ }
 
+ 
+ nav ul{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
 
+ }
+ nav ul li{
+    list-style: none;
+ }  
 
+   
+   
+ 
 
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+ }
+ nav ul li a:hover{
+    color: white;
+    transition: all 0.2s;
+ }
+ 
+
+ nav button{
+    display: none;
+ }
+ .logo a{
+    text-decoration: none;
+    color: black;
+ }
+
+ #mcb{
+    background-color:lightblue;
+ }
+ #msb{
+    background-color: rgb(117, 208, 211);
+ }
 
 
 @media only screen and (max-width: 600px) {
+    nav{
+        padding-right: 32px;
+    }
+    nav ul{
+        
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: green;
+        position: absolute;
+        right: -180px;
+        top:47px;
+        width:180px;
+        padding:20px;
+        transition: all 0.2s;
+    }
+  
+    .menuBtn{
+        display: block;
+        padding:5px 10px 5px 10px;
+     }
+    
+     .active{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: green;
+        position: absolute;
+        right: 0px;
+        top:47px;
+        width:180px;
+        padding:20px;
+        transition: all 0.2s;
+        
+     }
+     .links{
+        display: block;
+     }
+    
+    
     .program{
         width: 100%;
         height: auto;
