@@ -68,12 +68,14 @@ h2{
    list-style: circle;
    
  }
+ 
  footer{
-    background-color: darkorange;
+    background-color: var(--darkblue);
     text-align: center;
     padding:20px;
+    color:white;
+    font-size: 2vh;
     /* margin-top: 16px; */
-    
  }
 
  div{
@@ -193,7 +195,9 @@ padding-bottom: 32px;
  #msb{
     background-color: rgb(117, 208, 211);
  }
-
+#journal-list li {
+    list-style-type:lower-alpha;
+}
 
 @media only screen and (max-width: 600px) {
     nav{
@@ -256,12 +260,12 @@ padding-bottom: 32px;
         height: auto;
     }
     footer{
-        background-color: var(--darkblue);
+        /* background-color: var(--darkblue);
         text-align: center;
         padding:20px;
         font-size: 2vh;
         margin-top: 0;
-        color: white;
+        color: white; */
         
      }
      h1{
