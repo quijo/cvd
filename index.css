@@ -109,6 +109,9 @@ padding-bottom: 32px;
     margin-bottom: 8px;
     list-style-type: decimal;
  }
+ .nom{
+    background-color: lightblue;
+ }
 
  li{
         list-style-type: decimal;
@@ -176,6 +179,7 @@ padding-bottom: 32px;
         font-size:2.1vh;
 
      }
+   
     ul{
         padding-left:8px;
      }  
