@@ -9,10 +9,10 @@ const links =document.getElementById('links')
 const menuBtn = document.getElementById('menu')
 
 menuBtn.addEventListener('click', function(){
-    if (menuBtn.innerHTML === 'x'){
-        menuBtn.innerHTML = "menu"
+    if (menuBtn.innerHTML === 'X'){
+        menuBtn.innerHTML = "O"
     }else{
-        menuBtn.innerHTML="x"
+        menuBtn.innerHTML="X"
     }
 
     links.classList.toggle("active")
