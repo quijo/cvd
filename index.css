@@ -259,16 +259,8 @@ padding-bottom: 32px;
         width: 100%;
         height: auto;
     }
-    footer{
-        /* background-color: var(--darkblue);
-        text-align: center;
-        padding:20px;
-        font-size: 2vh;
-        margin-top: 0;
-        color: white; */
-        
-     }
-     h1{
+    
+    h1{
         font-size: 2.7vh;
      }
      h2{
@@ -281,16 +273,16 @@ padding-bottom: 32px;
      .msb ul li{
         margin-bottom: 8px;
         list-style-type: decimal;
-        
      }
+
      p{
         font-size: 2vh;
      }
+
      .cr p{
         font-size:2.1vh;
-
      }
-   
+
     ul{
         padding-left:8px;
      }  
