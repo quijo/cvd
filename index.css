@@ -284,6 +284,9 @@ margin: 0 auto;
 .act{
    background-color: var(--lightblue);
 }
+.hero img{
+   width: 100%;
+}
 @media only screen and (max-width: 600px) {
     nav{
         padding-right: 32px;
